@@ -10,3 +10,5 @@ Pillow>=8.0.0
 scikit-learn==1.2.1
 seaborn
 matplotlib.pyplot
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC
