@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle 
+import joblib
 
 # Load the trained SVM model
 model = pickle.load(open('FrancoBraconi_trained_wine_SVMclassification_model.sav', 'rb'))
